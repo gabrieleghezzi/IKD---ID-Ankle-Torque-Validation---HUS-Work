@@ -31,7 +31,11 @@ For each trial, the script:
 
 1. Download or clone this repository.
 2. Open `IKD_ID_Torques_Validation.mlx` in MATLAB.
-3. Run the script section by section (organized by trial/condition).
+3. Load the required workspace files:
+   - `IKD_Torque_Data.mat` — dynamometer (IKD) torque values
+   - `Force_LeverArm_Trials1-4.mat` — force and lever-arm data for trials 1–4
+   - `Force_LeverArm_Trials5-8.mat` — force and lever-arm data for trials 5–8
+4. Run the script section by section (organized by trial/condition).
 
 Alternatively, open `IKD_ID_Torques_Validation.pdf` to view the rendered output without 
 running MATLAB.
